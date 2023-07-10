@@ -1,0 +1,29 @@
+      *{
+            margin: 0;
+        }
+        .blog{
+            background-color: aquamarine;
+            border: 5px solid tomato;
+            border-radius: 15px;
+            margin: 10px 20px;
+            padding: 10px;
+            box-shadow: 10px 10px 10px violet;
+        }
+        h3 {
+            font-size: 20px;
+            text-decoration: overline ;
+            font-family: 'Courier New', Courier, monospace ;
+        }
+    .incident{
+        border: 1px solid purple;
+        display: inline-block ;
+    }
+    .head{
+        height: 800px;
+        text-align: center;
+        font-size: larger;
+        background-color: #ef6464;
+        background-image: url("tree.jpg");
+        background-repeat: no-repeat;
+        color: #ffffff;
+    }
