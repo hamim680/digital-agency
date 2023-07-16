@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            row-gap: 10px;
+            column-gap: 10px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .Kew-na{
+            border: 2px solid tomato;
+            padding: 20px;
+            border-radius: 10px;
+           
+        }
+        .Kew-na img{
+            width: 100%;
+        }
+        /* common device */
+        @media screen and (max-width:500px) { 
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .Kew-na{
+                background-color: darkolivegreen;
+            }
+            
+        }
+        /* medium device */
+        @media screen and (min-width:501px) and (max-width:980px) {
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .Kew-na{
+                background-color: darkgoldenrod;
+            }
+            
+        }
+        /* small device */
+        @media screen and (min-width:981px) and (max-width:1280px) {
+            .container{
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .Kew-na{
+                background-color: rgb(111, 219, 225);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- .container>food*12>img[src"1003810.jpg"]+h3{Food Items - $}+p{Price: \$$00}+p>lorem20^btn{Buy now} -->
+    <div class="container">
+        <food class="Kew-na">
+            <img src="./1003810.jpg" alt="">
+            <h3>Food Items - 1</h3>
+            <p>Price: $100</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis officia tenetur atque, consequuntur voluptate necessitatibus unde omnis iusto repudiandae nostrum.</p>
+            <button>Buy now</button>
+        </food>
+        <food class="Kew-na">
+            <img src="./1003810.jpg" alt="">
+            <h3>Food Items - 2</h3>
+            <p>Price: $200</p>
+            <p>Aliquam cupiditate modi laudantium vero tenetur sint corrupti, unde nam alias blanditiis ullam possimus veniam tempore odit dignissimos sequi veritatis?</p>
+            <button>Buy now</button>
+        </food>
+        <food class="Kew-na">
+            <img src="./1003810.jpg" alt="">
+            <h3>Food Items - 3</h3>
+            <p>Price: $300</p>
+            <p>Eos optio, sequi fuga numquam explicabo, corporis accusamus veritatis error libero modi eveniet eius ipsa similique amet nemo necessitatibus doloremque!</p>
+            <button>Buy now</button>
+        </food>
+        <food class="Kew-na">
+            <img src="./1003810.jpg" alt="">
+            <h3>Food Items - 4</h3>
+            <p>Price: $400</p>
+            <p>Rem exercitationem totam odio similique ullam eligendi iure voluptatibus? Quidem in aspernatur esse iusto, explicabo consequatur a temporibus aperiam dicta.</p>
+            <button>Buy now</button>
+        </food>
+        <food class="Kew-na">
+            <img src="./1003810.jpg" alt="">
+            <h3>Food Items - 5</h3>
+            <p>Price: $500</p>
+            <p>Consequatur voluptate labore nesciunt commodi nobis qui rerum maiores architecto, hic, incidunt aperiam modi exercitationem, eveniet odit blanditiis quia totam.</p>
+            <button>Buy now</button>
+        </food>
+        <food class="Kew-na">
+            <img src="./1003810.jpg" alt="">
+            <h3>Food Items - 6</h3>
+            <p>Price: $600</p>
+            <p>Modi, quidem laboriosam sunt hic voluptatibus obcaecati harum deleniti eaque vero. Perspiciatis repellendus atque odio recusandae enim quo minus nostrum!</p>
+            <button>Buy now</button>
+        </food>
+        <food class="Kew-na">
+            <img src="./1003810.jpg" alt="">
+            <h3>Food Items - 7</h3>
+            <p>Price: $700</p>
+            <p>Dicta quia earum iure sequi deserunt sapiente? Nesciunt omnis quis, beatae explicabo est harum labore. A iste earum quis excepturi.</p>
+            <button>Buy now</button>
+        </food>
+        <food class="Kew-na">
+            <img src="./1003810.jpg" alt="">
+            <h3>Food Items - 8</h3>
+            <p>Price: $800</p>
+            <p>Error, deleniti ipsa? Omnis libero sequi maiores eum molestiae nobis corporis quia quos numquam similique eveniet, voluptas expedita minus ipsa.</p>
+            <button>Buy now</button>
+        </food>
+        <food class="Kew-na">
+            <img src="./1003810.jpg" alt="">
+            <h3>Food Items - 9</h3>
+            <p>Price: $900</p>
+            <p>Neque quos perspiciatis quaerat! Alias ipsam facere quod eius perferendis iusto, sint laborum molestias exercitationem nisi culpa voluptatem. Nobis, porro.</p>
+            <button>Buy now</button>
+        </food>
+        <food class="Kew-na">
+            <img src="./1003810.jpg" alt="">
+            <h3>Food Items - 10</h3>
+            <p>Price: $1000</p>
+            <p>Possimus perferendis deleniti blanditiis soluta qui atque rerum vero unde? Deserunt quidem consequatur, voluptates nam beatae repellendus dolorem optio incidunt.</p>
+            <button>Buy now</button>
+        </food>
+        <food class="Kew-na">
+            <img src="./1003810.jpg" alt="">
+            <h3>Food Items - 11</h3>
+            <p>Price: $1100</p>
+            <p>Laboriosam voluptates quos ab sint expedita facilis ea ipsa, molestiae voluptatibus aspernatur veritatis, provident corrupti optio perspiciatis laborum. Provident, nam?</p>
+            <button>Buy now</button>
+        </food>
+        <food class="Kew-na">
+            <img src="./1003810.jpg" alt="">
+            <h3>Food Items - 12</h3>
+            <p>Price: $1200</p>
+            <p>Voluptatem officiis dignissimos debitis, ex necessitatibus ab temporibus quis consectetur, voluptatibus eligendi deserunt cumque fugit tempora architecto id, magnam deleniti.</p>
+            <button>Buy now</button>
+        </food>
+    </div>
+    
+</body>
+</html>
